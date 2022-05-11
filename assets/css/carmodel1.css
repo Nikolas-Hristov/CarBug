@@ -1,0 +1,18 @@
+.years{
+    color:darkred;
+}
+.har{
+    text-decoration: none;
+    color:red;
+}
+.fa, .fas {
+    font-weight: 900;
+    color: darkred;
+    padding-right: 0.5rem;
+  }
+  .har:hover{
+    text-decoration: none;
+    color:whitesmoke;
+    transform: scale(1.08);
+    transition: 0.2s ease-in-out; 
+}

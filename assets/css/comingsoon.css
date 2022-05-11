@@ -1,0 +1,12 @@
+#comingsoon0{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color:darkred;
+}
+#comingsoon1{
+    background-color: black;
+    color:darkred;
+    font-size: 5rem;
+}
+main{background-color: black;}

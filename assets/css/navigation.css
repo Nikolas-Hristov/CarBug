@@ -1,0 +1,90 @@
+/*=================
+  3. Navigation
+==================*/
+
+/* [Navigation] */
+.header {
+    width: 100%;
+    padding: 1rem;
+    z-index: 9000;
+    background-color: black;
+  }
+  
+  
+  .header .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin-top: -34rem;
+  }
+  
+  .header .navigation ul {
+    margin-right: 4rem;
+  }
+  
+  .header .navigation ul li {
+    display: inline;
+    margin-left: 0.5rem;
+  }
+  
+  .header .navigation ul li a {
+    font-weight: 500;
+    padding: 10px;
+    color: darkred;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .header .navigation ul li a:hover {
+    color: whitesmoke;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    text-decoration: none;
+  }
+  .logo__name:hover {
+    display: flex;
+    text-decoration: none;
+    color: darkred;
+    font-weight: 600;
+    border-left: 4px solid darkred;
+    margin-left: 4rem;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+  }
+/* [Background image] */
+  #background_image{
+    height: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  #background_image img{
+    width: 100%;
+    margin-top: -12rem;
+    margin-bottom: -8rem;
+  }
+  .logo__name {
+    display: flex;
+    text-decoration: none;
+    color: darkred;
+    font-weight: 600;
+    border-left: 4px solid darkred;
+    margin-left: 4rem;
+  }
+  
+  .logo__name h1:nth-child(1) {
+    color: whitesmoke;
+  }
+  
+  .logo__name h1 {
+    margin-left: 6px;
+  }
+  #login{
+    border-left: 3px solid darkred;
+  }
+  
