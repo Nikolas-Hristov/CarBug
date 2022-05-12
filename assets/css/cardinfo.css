@@ -64,6 +64,7 @@ section .card .image{
   border-radius: 50%;
   padding: 3px;
   background: darkred;
+  margin-bottom: 1.5rem;
 }
 
 section .card .image img{
@@ -142,6 +143,35 @@ section .card .image img{
   font-size: 14px;
   transition: all 0.3s ease;
   cursor: pointer;
+  text-decoration:none;
+}
+ #aboutme{
+   text-decoration: none;
+   color:white;
+ }
+ #textinfo{
+   display: flex;
+   justify-content: center;
+   margin-top:5px;
+   color: darkred;
+ }
+ .logo__name {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  color: darkred;
+  font-weight: 600;
+  border-left: 4px solid darkred;
+  margin-top: 50px;
+  Size:5rem;
+}
+
+.logo__name h1:nth-child(1) {
+  color: whitesmoke;
+}
+
+.logo__name h1 {
+  margin-left: 6px;
 }
 
 .button button:hover{
