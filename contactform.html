@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/./contactform.css">
+</head>
+<body>
+    
+<!-- modify this form HTML and place wherever you want your form -->
+    <form
+    action="https://formspree.io/f/mnqwlvqq"
+    method="POST">
+    <div class="container">
+        <div class="box">
+            <a class="logo__name" href="index.html">
+                <h1>Car</h1>
+                <h1>Bug</h1>
+              </a>
+            <div class="email">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" placeholder="Email" id="email">
+            </div>
+            <div class="message-box">
+                <textarea name="message" id="msg" cols="30" rows="10" 
+                    placeholder="Message"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit" id="send" onclick="message()" href="index.html">Send</button>
+            </div>
+            <div class="message">
+                <div class="success" id="success">
+                    Your Message Successfully Sent!
+                </div>
+                <div class="danger" id="danger">Feilds Can't be Empty!</div>
+            </div>
+        </div>
+    </div>
+</body>
+</form>
+</html>

@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 700px;
+    height: auto;
+    background-color: black;
+    border-radius: 3rem;
+    border-bottom: 0.4rem solid darkred;
+    border-top: 0.4rem solid darkred;
+    border-left: 0.3rem solid darkred;
+    border-right: 0.3rem solid darkred;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 35px;
+    margin: 15px;
+}
+.email{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.email i{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black;
+}
+.email input{
+    width: 100%;
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: gray;
+    border-radius: 40px;
+}
+.email input::placeholder{
+    color: black;
+    font-weight: 500;
+}
+.message-box{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+.message-box i{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: black;
+}
+.message-box textarea{
+    width: 100%;
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: gray;
+    border-radius: 40px;
+}
+.message-box textarea::placeholder{
+    color: black;
+    font-weight: 500;
+}
+
+.button{
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.button button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer; border-radius: 3rem;
+    border-bottom: 0.4rem solid darkred;
+    border-top: 0.4rem solid darkred;
+    border-left: 0.3rem solid darkred;
+    border-right: 0.3rem solid darkred;
+}
+.message{
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display: none;
+}
+@keyframes buttons{
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.logo__name {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: darkred;
+    font-weight: 600;
+    border-left: 4px solid darkred;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .logo__name h1:nth-child(1) {
+    color: whitesmoke;
+  }
+  
+  .logo__name h1 {
+    margin-left: 6px;
+  }
